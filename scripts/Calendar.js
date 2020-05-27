@@ -1,3 +1,15 @@
+/*
+ AUTHOR: James Hong (yjh0205@gmail.com)
+ DATE CREATED: 2020-05-26
+ 
+ Assignment01_JamesHong
+
+ DESCRIPTION:
+    Calendar.js contains the model for the calendar used in this project.
+ 
+ */
+
+
 class Calendar {
 
     constructor() {

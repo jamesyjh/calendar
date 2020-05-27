@@ -1,3 +1,14 @@
+/*
+ AUTHOR: James Hong (yjh0205@gmail.com)
+ DATE CREATED: 2020-05-26
+ 
+ Assignment01_JamesHong
+
+ DESCRIPTION:
+    Main script handling all logic for calendar data generation. Uses Calendar.js Calendar class.
+ 
+ */
+
 document.addEventListener("DOMContentLoaded", function () {
 
     let calendar = new Calendar();
