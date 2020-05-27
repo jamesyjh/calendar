@@ -1,3 +1,6 @@
+## Preview
+![alt text](https://github.com/jamesyjh/calendar/blob/master/preview.png?raw=true)<br />
+
 ## Description
 
 Assignment01 - SYST24444 Spring/Summer 2020
