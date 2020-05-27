@@ -1,0 +1,97 @@
+/**
+ * 
+ AUTHOR: James Hong (yjh0205@gmail.com)
+ DATE CREATED: 2020-05-26
+
+ DESCRIPTION:
+    Style Sheet for index.html of Assignment01-JamesHong.
+ *
+ */
+
+
+@import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans+Condensed:300|Raleway&display=swap");
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+.monthYear-container {
+    text-align: center;
+    font-size: calc(1em + 2vw);
+    font-weight: 500;
+}
+
+.gridParent-dayOfWeek {
+    display: grid;
+    gap: 2px;
+    grid-template-columns: repeat(7, 1fr);
+    margin: 10px;
+    font-family: "work Sans", sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+    #dayOfWeek-short {
+        display: none;
+    }
+}
+
+.gridItem-day {
+    font-size: calc(0.5em + 1.25vw);
+    text-align: center;
+    font-weight: 300px;
+    padding: 5px 0 0 5px;
+    height: 10vw;
+    min-height: 40px;
+    max-height: 40px;
+    background-color: #ccc;
+}
+
+@media screen and (max-width:768px ) {
+    #dayOfWeek-full {
+        display: none;
+    }
+
+    .gridItem-day {
+        font-size: calc(0.5em + 1.5vw);
+        min-height: 30px;
+        max-height: 30px;
+    }
+}
+
+.gridParent-dateOfMonth {
+    display: grid;
+    gap: 2px;
+    grid-template-columns: repeat(7, 1fr);
+    margin: 10px;
+
+}
+
+.gridItem {
+    font-size: 13px;
+    padding: 5px 0 0 5px;
+    height: 10vw;
+    min-height: 50px;
+    max-height: 150px;
+}
+
+
+#previousMonth {
+    background-color: #afafaf;
+}
+
+#currentMonth {
+    font-size: 16px;
+    background-color: #ececec;
+}
+
+#nextMonth {
+    background-color: #afafaf;
+}
+
+#today {
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #daffc8;
+
+}
