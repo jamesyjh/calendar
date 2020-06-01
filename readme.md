@@ -15,6 +15,7 @@ DATE CREATED: 2020-05-26
 
 ## Structure
 
+```bash
 Assignment1_JamesHong/
 ├── index.html          // Default page
 ├── main.css            // Base Styles. Available globally in the application
@@ -24,3 +25,5 @@ Assignment1_JamesHong/
     ├── Calendar.js     // Model class defining the properties of a calendar and accessor methods
     ├── Logger.js       // Debugging tool rendered at the bottom of the browser  
     └── main.js         // Uses Calendar class to dynamically update the static HTML content
+
+```
