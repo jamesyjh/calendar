@@ -13,10 +13,8 @@ AUTHOR: James Hong (yjh0205@gmail.com)<br />
 DATE CREATED: 2020-05-26
 
 
-## Structure
 
 ```bash
-Assignment1_JamesHong/
 ├── index.html          // Default page
 ├── main.css            // Base Styles. Available globally in the application
 ├── preview.png         // Screenshot of application 
