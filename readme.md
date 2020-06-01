@@ -14,15 +14,15 @@ DATE CREATED: 2020-05-26
 
 
 ## Structure
- Project Root
- ├── index.html         // Default page
- ├── main.css           // Base Styles. Available globally in the application
- ├── preview.png        // Screenshot of application 
- ├── readme.md          // Contains general information about this project
- └── scripts             
-     ├── Calendar.js    // Model class defining the properties of a calendar and accessor methods
-     ├── Logger.js      // Debugging tool rendered at the bottom of the browser  
-     └── main.js        // Uses Calendar class to dynamically update the static HTML content
+ Project Root<br />
+ ├── index.html         // Default page<br />
+ ├── main.css           // Base Styles. Available globally in the application<br />
+ ├── preview.png        // Screenshot of application <br />
+ ├── readme.md          // Contains general information about this project<br />
+ └── scripts             <br />
+     ├── Calendar.js    // Model class defining the properties of a calendar and accessor methods<br />
+     ├── Logger.js      // Debugging tool rendered at the bottom of the browser  <br />
+     └── main.js        // Uses Calendar class to dynamically update the static HTML content<br />
 
 
 
