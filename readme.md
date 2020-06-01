@@ -14,6 +14,7 @@ DATE CREATED: 2020-05-26
 
 
 ## Structure
+
  Project Root
      ├── scripts             
          ├── Calendar.js    // Model class defining the properties of a calendar and accessor methods
