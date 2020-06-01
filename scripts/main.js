@@ -9,9 +9,12 @@
  
  */
 
+
 document.addEventListener("DOMContentLoaded", function () {
 
     let calendar = new Calendar();
+
+
 
     // Dynamically change month-year at the top of the calendar
     let monthYear = document.getElementById("monthYear");

@@ -10,9 +10,19 @@
  */
 
 
+/** Class representing a calendar. */
 class Calendar {
 
-    constructor() {
+    /**
+     * Create a point.
+     * @param {Date} time - The current time.
+     * @param {number} year - The current year.
+     * @param {number} month - The current month.
+     * @param {number} date - The current date.
+     * @param {number} day - The current day.
+     */
+
+    constructor(time, year, month, date, day) {
         this.time = new Date(Date.now());
         this.year = this.time.getFullYear();
         this.month = this.time.getMonth() + 1;
@@ -22,6 +32,10 @@ class Calendar {
 
 
 
+    /**
+     * Get the current month.
+     * @return {string} The month value as a string - full length.
+     */
     getMonthString() {
         switch (this.month) {
             case 1: return "January";
@@ -39,8 +53,15 @@ class Calendar {
         }
     }
 
-    getShortMonthString(x) {
-        switch (this.month + x) {
+
+    /**
+     * Get the current month.
+     * @param {number} shift - Value added to get previous or next month value. 
+     * @return {number} The month as a string - shortened length.
+     */
+
+    getShortMonthString(shift) {
+        switch (this.month + shift) {
             case 1: return "Jan";
             case 2: return "Feb";
             case 3: return "Mar";
@@ -57,6 +78,10 @@ class Calendar {
     }
 
 
+    /**
+     * Get the current day of the week.
+     * @return {number} The day of the week as a string.
+     */
     getDayString() {
         switch (this.day) {
             case 1: return "Sunday";
@@ -69,18 +94,36 @@ class Calendar {
         }
     }
 
+    /**
+     * Get the number of days in the current month.
+     * @return {number} The total number of days in the month.
+     */
     getDaysOfMonth() {
         return new Date(this.year, this.month, 0).getDate();
     }
 
+    /**
+     * Get the first day of the month.
+     * @return {number} The first day of the month.
+     */
     getFirstDayOfMonth() {
         return new Date(this.year, this.month - 1, 1).getDay() + 1;
     }
 
+    /**
+     * Get the last day of the month.
+     * @return {number} The last day of the month..
+     */
     getLastDayOfMonth() {
         return new Date(this.year, this.month, 0).getDay() + 1;
     }
+
+    /**
+     * Get the last day of the previous month.
+     * @return {number} The last day of the previous month.
+     */
     getLastDayOfPreviousMonth() {
         return new Date(this.year, this.month - 1, 0).getDate();
     }
+
 }
